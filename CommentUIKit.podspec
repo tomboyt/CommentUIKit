@@ -42,7 +42,7 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   #s.static_framework  = true
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
-  s.subspec 'Vendors' do |ss|
+  s.subspec 'Class' do |ss|
       ss.vendored_frameworks   = 'UniversalBarKit/Class/*.framework'
       ss.preserve_paths        = 'UniversalBarKit/Class/*.framework'
       end
