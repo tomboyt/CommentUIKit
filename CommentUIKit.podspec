@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.platform = :ios, '9.0'
   s.swift_versions   = '5.0'
   s.source_files = 'CommentUIKit/**/*.{swift,framework}'
-
+  s.requires_arc      = true
   
   # s.resource_bundles = {
   #   'CommentUIKit' => ['CommentUIKit/Assets/*.png']
@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  #s.static_framework  = true
+  s.static_framework  = true
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   s.subspec 'Vendors' do |ss|
       ss.vendored_frameworks   = 'CommentUIKit/Vendors/*.framework'
