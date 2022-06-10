@@ -1,0 +1,16 @@
+PODS:
+  - CommentUIKit (0.1.0)
+
+DEPENDENCIES:
+  - CommentUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  CommentUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CommentUIKit: 64ea0ad06141c1c1e80d420ddd0391567cb0a434
+
+PODFILE CHECKSUM: db0e1bf4594395821ac8ef29437d25d4ccfd1209
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,22 @@
+{
+  "name": "CommentUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of CommentUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tomboyt/CommentUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tomboyt": "tomboyt@163.com"
+  },
+  "source": {
+    "git": "https://github.com/tomboyt/CommentUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CommentUIKit/Classes/**/*"
+}

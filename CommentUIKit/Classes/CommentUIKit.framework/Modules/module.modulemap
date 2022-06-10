@@ -1,0 +1,11 @@
+framework module CommentUIKit {
+  umbrella header "CommentUIKit.h"
+
+  export *
+  module * { export * }
+}
+
+module CommentUIKit.Swift {
+    header "CommentUIKit-Swift.h"
+    requires objc
+}
