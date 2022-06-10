@@ -6,79 +6,65 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		ED39EFE14B22B3AB4F3219E889AB9037 /* CommentUIKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 59C2DB057607C59C0A775083C38027C5 /* Build configuration list for PBXAggregateTarget "CommentUIKit" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = CommentUIKit;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		0613180B41ADBA208636FC893C6426AE /* Pods-CommentUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC98A5948002FABE8ABF7EE943218826 /* Pods-CommentUIKit_Example-dummy.m */; };
 		08656D07E17A03D69428D028CEC315E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0FC042427BBEB73C6AB968557C1556FA /* CommentUIKit-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 341F2FC47D112B24CA23B324E2B23D28 /* CommentUIKit-Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B8C521CD081FC40D166043A6F435A6C /* Pods-CommentUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 629ADFC902829D475BE06057D9FAF0F6 /* Pods-CommentUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26C11A0C636C1AA676F0BAAE18DB5812 /* CommentUIKit in Sources */ = {isa = PBXBuildFile; fileRef = 839423A3A68C830A79BCE83C0FFD9819 /* CommentUIKit */; };
-		2BC0E3CEA65F220F87C9637052C23F0A /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 7FFD521431887F93EB55A8D21B402462 /* Info.plist */; };
 		4AE5AE07C73C4C25DCF750826E59E102 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4D67E1D46621956CAEC2DD865619D066 /* x86_64-apple-ios-simulator.swiftsourceinfo in Sources */ = {isa = PBXBuildFile; fileRef = 11971033476DC080CDA6BD4DCD1CE245 /* x86_64-apple-ios-simulator.swiftsourceinfo */; };
-		62BF2E1B6EC119C4A79D257E44A0E77F /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 444F62686A92035C6E0733E22770AD1E /* module.modulemap */; };
 		8DF9E47EAB5F289885363A2D589B6FB2 /* Pods-CommentUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7ACDC37D78A30F0599C4165C1310BC7 /* Pods-CommentUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A17F8BADB79E4B87B2E34B017C083B2C /* x86_64-apple-ios-simulator.swiftmodule in Sources */ = {isa = PBXBuildFile; fileRef = 09E311F43894BDCD2517A40F0E57772F /* x86_64-apple-ios-simulator.swiftmodule */; };
 		A47C8EDE0DAC3E47DBB41AECFBF10C7C /* Pods-CommentUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C92F8C982988B3ECFBC3190EF4A5C /* Pods-CommentUIKit_Tests-dummy.m */; };
-		C1CBA415F8431C09491D97CB2688BC59 /* x86_64-apple-ios-simulator.swiftdoc in Sources */ = {isa = PBXBuildFile; fileRef = 3F49C1DB1E94C2C72FCDB1C10D606744 /* x86_64-apple-ios-simulator.swiftdoc */; };
-		C3BFA49449459704E195CF8C0CADF3C9 /* CommentUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 411C91C0B8CD51C925D19A119E8F65DE /* CommentUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C88D23830D856D0E289CF57E92D68AE5 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = A4D3FDBC6F0FE97A3A6A2C69DEEF16D7 /* CodeResources */; };
-		D5745EA41ACB0E4F5BB3EEE5C0A33EDE /* CommentUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B860638949E2D1B339BA341DBF8341 /* CommentUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D69F2E242E86FF3ACEC56B776B20F134 /* CommentUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D81C764340F786B580CFE9FBBDBC85 /* CommentUIKit-dummy.m */; };
-		F3448361FCF39EB5E44DDB5FCCEB87B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B26FE76D70B147B1AD4F093DB507DC15 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2A380E6AAB9F3668F4727AAFF786B732;
-			remoteInfo = "Pods-CommentUIKit_Example";
-		};
-		CF9FCC671B1D8DC7863A42AD6CCAA34D /* PBXContainerItemProxy */ = {
+		7FD5C11678B842C383BC28958CA7F9CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ED39EFE14B22B3AB4F3219E889AB9037;
 			remoteInfo = CommentUIKit;
 		};
+		97B0E53001CD8294145E77C28E37C1B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A380E6AAB9F3668F4727AAFF786B732;
+			remoteInfo = "Pods-CommentUIKit_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09E311F43894BDCD2517A40F0E57772F /* x86_64-apple-ios-simulator.swiftmodule */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftmodule"; sourceTree = "<group>"; };
-		0B856835A3B280E1FAF7316C2E7B930D /* CommentUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommentUIKit.release.xcconfig; sourceTree = "<group>"; };
-		11971033476DC080CDA6BD4DCD1CE245 /* x86_64-apple-ios-simulator.swiftsourceinfo */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftsourceinfo"; sourceTree = "<group>"; };
+		10003AA07CBA3114E9DA5DB06584F9CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1DCEB2834E77785838FCC5B6FCF7F8FB /* Pods-CommentUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommentUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		26F5174B803BDA8FB15430429B997C29 /* Pods-CommentUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommentUIKit_Tests.modulemap"; sourceTree = "<group>"; };
-		341F2FC47D112B24CA23B324E2B23D28 /* CommentUIKit-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommentUIKit-Swift.h"; sourceTree = "<group>"; };
+		3989FD88AD005FC424B8C0A93AB19861 /* CommentUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommentUIKit.release.xcconfig; sourceTree = "<group>"; };
 		39C54DA591575529C5D5FC0DE4322782 /* Pods-CommentUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommentUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3F49C1DB1E94C2C72FCDB1C10D606744 /* x86_64-apple-ios-simulator.swiftdoc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftdoc"; sourceTree = "<group>"; };
-		411C91C0B8CD51C925D19A119E8F65DE /* CommentUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommentUIKit-umbrella.h"; sourceTree = "<group>"; };
-		444F62686A92035C6E0733E22770AD1E /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
-		44BA2768D3F9E6C6833A6DB1EDD15D43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		50F08ECC0F45CF0E1E082F5CCE657BCF /* CommentUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CommentUIKit-Info.plist"; sourceTree = "<group>"; };
-		52D81C764340F786B580CFE9FBBDBC85 /* CommentUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommentUIKit-dummy.m"; sourceTree = "<group>"; };
+		42622F02747E18FBB04E1B40A4376500 /* CommentUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommentUIKit.framework; path = CommentUIKit/Vendors/CommentUIKit.framework; sourceTree = "<group>"; };
+		4C187BC03B1660903194D7D9B9D32639 /* CommentUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommentUIKit.debug.xcconfig; sourceTree = "<group>"; };
 		5DD6B0C46F7F75AA98C687EE1B19C641 /* Pods-CommentUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommentUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		60E7BBBC8F18C87C2FFAB287B01EAE46 /* CommentUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommentUIKit-prefix.pch"; sourceTree = "<group>"; };
 		629ADFC902829D475BE06057D9FAF0F6 /* Pods-CommentUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommentUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6B2DFFC1577D87F153EE00870169B0F3 /* Pods-CommentUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommentUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6C8B0EE3DAAB409D3DE197E7A038AF8C /* Pods-CommentUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommentUIKit_Example-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7FFD521431887F93EB55A8D21B402462 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = CommentUIKit/Classes/CommentUIKit.framework/Info.plist; sourceTree = "<group>"; };
-		839423A3A68C830A79BCE83C0FFD9819 /* CommentUIKit */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; name = CommentUIKit; path = CommentUIKit/Classes/CommentUIKit.framework/CommentUIKit; sourceTree = "<group>"; };
-		8C133E331CC370EE6CC610D63DD1475E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		92B860638949E2D1B339BA341DBF8341 /* CommentUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CommentUIKit.h; sourceTree = "<group>"; };
-		95E40C29616255E13D775DA83C33B912 /* CommentUIKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CommentUIKit; path = CommentUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B28DD2B98C200374B6441BD21D70DC2 /* CommentUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommentUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		8AF4D2BF0FC8DC33794D30371FE6495D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9C6FD1183295098F67C5A1A9C08368B2 /* Pods-CommentUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommentUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A159C8BFD75DE57617392DD25017741B /* CommentUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CommentUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		A38E5C91F61CE54B023A5CCE0C9F9C37 /* CommentUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CommentUIKit.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A40A5CB85CB3505565752D32A9C3BFD9 /* Pods-CommentUIKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CommentUIKit_Tests"; path = Pods_CommentUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4D3FDBC6F0FE97A3A6A2C69DEEF16D7 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = CodeResources; sourceTree = "<group>"; };
 		A6E7FAF1934A9D8359764555B50107E1 /* Pods-CommentUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommentUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A8731EC8901B46624C55050BE87FDBB1 /* Pods-CommentUIKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CommentUIKit_Example"; path = Pods_CommentUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1618F263FAE78DE9DC3EA7BDBD081D6 /* Pods-CommentUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommentUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C049815F4A7DFE989D5D9D133EB253C6 /* CommentUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CommentUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C7A42ED312F1023D87EEDD05F1D9F1C7 /* Pods-CommentUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommentUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C7E9517DE4B87339327F635892FD96C8 /* Pods-CommentUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommentUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		CBB04AC10A8B265196AF30EBBE22A53C /* Pods-CommentUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommentUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -105,57 +91,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB6A1E16573A08747CD936A26DB0994D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3448361FCF39EB5E44DDB5FCCEB87B5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C526327F907139036AC61C6F269EC3C /* Products */ = {
+		0822EE276B89D24470886217240B2A95 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				95E40C29616255E13D775DA83C33B912 /* CommentUIKit */,
+				E03B6C895F0FE424FAF21D30C5CC6EA8 /* CommentUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1A9D3EAB21B895FB42B39AB990FA2BC4 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				40D9A5A088FC92E1B429A590467C588E /* Frameworks */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		40D9A5A088FC92E1B429A590467C588E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42622F02747E18FBB04E1B40A4376500 /* CommentUIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56444F40915E03429606635930641F38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
 				A8731EC8901B46624C55050BE87FDBB1 /* Pods-CommentUIKit_Example */,
 				A40A5CB85CB3505565752D32A9C3BFD9 /* Pods-CommentUIKit_Tests */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3B4FEFE982D397DAB214936FA86A3BAA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A38E5C91F61CE54B023A5CCE0C9F9C37 /* CommentUIKit.modulemap */,
-				52D81C764340F786B580CFE9FBBDBC85 /* CommentUIKit-dummy.m */,
-				50F08ECC0F45CF0E1E082F5CCE657BCF /* CommentUIKit-Info.plist */,
-				60E7BBBC8F18C87C2FFAB287B01EAE46 /* CommentUIKit-prefix.pch */,
-				411C91C0B8CD51C925D19A119E8F65DE /* CommentUIKit-umbrella.h */,
-				9B28DD2B98C200374B6441BD21D70DC2 /* CommentUIKit.debug.xcconfig */,
-				0B856835A3B280E1FAF7316C2E7B930D /* CommentUIKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CommentUIKit";
-			sourceTree = "<group>";
-		};
-		3D7EB68AEB32C5AA4F5F1322E6F8AFD5 /* _CodeSignature */ = {
-			isa = PBXGroup;
-			children = (
-				A4D3FDBC6F0FE97A3A6A2C69DEEF16D7 /* CodeResources */,
-			);
-			name = _CodeSignature;
-			path = CommentUIKit/Classes/CommentUIKit.framework/_CodeSignature;
-			sourceTree = "<group>";
-		};
-		56D3B8B07CCC16F9F97E5D8AA2A3CF04 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D44158C2F5C30CDA7190106F38C53BF2 /* CommentUIKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -166,52 +135,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		732316A12CAF5ACEFB186CAAAC773DE6 /* CommentUIKit.swiftmodule */ = {
+		83149813578169D61B04FD4C1732D60A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3F49C1DB1E94C2C72FCDB1C10D606744 /* x86_64-apple-ios-simulator.swiftdoc */,
-				09E311F43894BDCD2517A40F0E57772F /* x86_64-apple-ios-simulator.swiftmodule */,
-				81A55E200DCBC7F98BB721B3F524F74E /* Project */,
+				4C187BC03B1660903194D7D9B9D32639 /* CommentUIKit.debug.xcconfig */,
+				3989FD88AD005FC424B8C0A93AB19861 /* CommentUIKit.release.xcconfig */,
 			);
-			path = CommentUIKit.swiftmodule;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CommentUIKit";
 			sourceTree = "<group>";
 		};
-		81A55E200DCBC7F98BB721B3F524F74E /* Project */ = {
+		A50FDEC9D3EDE1874FE43CF379116FE2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				11971033476DC080CDA6BD4DCD1CE245 /* x86_64-apple-ios-simulator.swiftsourceinfo */,
-			);
-			path = Project;
-			sourceTree = "<group>";
-		};
-		894B4F1DA127EDB690A0C7A8FD780A97 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				92B860638949E2D1B339BA341DBF8341 /* CommentUIKit.h */,
-				341F2FC47D112B24CA23B324E2B23D28 /* CommentUIKit-Swift.h */,
-			);
-			name = Headers;
-			path = CommentUIKit/Classes/CommentUIKit.framework/Headers;
-			sourceTree = "<group>";
-		};
-		92D99E2A5137DA9BBDB0ED26C51BE63D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A159C8BFD75DE57617392DD25017741B /* CommentUIKit.podspec */,
-				8C133E331CC370EE6CC610D63DD1475E /* LICENSE */,
-				44BA2768D3F9E6C6833A6DB1EDD15D43 /* README.md */,
+				C049815F4A7DFE989D5D9D133EB253C6 /* CommentUIKit.podspec */,
+				10003AA07CBA3114E9DA5DB06584F9CC /* LICENSE */,
+				8AF4D2BF0FC8DC33794D30371FE6495D /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		BE12E7210C62977C06023AC097D727F0 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				444F62686A92035C6E0733E22770AD1E /* module.modulemap */,
-				732316A12CAF5ACEFB186CAAAC773DE6 /* CommentUIKit.swiftmodule */,
-			);
-			name = Modules;
-			path = CommentUIKit/Classes/CommentUIKit.framework/Modules;
 			sourceTree = "<group>";
 		};
 		C5EB6544A3AEE64063D9DB97AA5EC4A2 /* Pods-CommentUIKit_Example */ = {
@@ -235,9 +176,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				56D3B8B07CCC16F9F97E5D8AA2A3CF04 /* Development Pods */,
+				0822EE276B89D24470886217240B2A95 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0C526327F907139036AC61C6F269EC3C /* Products */,
+				56444F40915E03429606635930641F38 /* Products */,
 				DF74D03D57FBB27ED71AAC40E683564A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -250,21 +191,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D44158C2F5C30CDA7190106F38C53BF2 /* CommentUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				839423A3A68C830A79BCE83C0FFD9819 /* CommentUIKit */,
-				7FFD521431887F93EB55A8D21B402462 /* Info.plist */,
-				3D7EB68AEB32C5AA4F5F1322E6F8AFD5 /* _CodeSignature */,
-				894B4F1DA127EDB690A0C7A8FD780A97 /* Headers */,
-				BE12E7210C62977C06023AC097D727F0 /* Modules */,
-				92D99E2A5137DA9BBDB0ED26C51BE63D /* Pod */,
-				3B4FEFE982D397DAB214936FA86A3BAA /* Support Files */,
-			);
-			name = CommentUIKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		DF74D03D57FBB27ED71AAC40E683564A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +198,17 @@
 				E264F1AFDF2DB40AED32B1084C58B7AC /* Pods-CommentUIKit_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E03B6C895F0FE424FAF21D30C5CC6EA8 /* CommentUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A50FDEC9D3EDE1874FE43CF379116FE2 /* Pod */,
+				83149813578169D61B04FD4C1732D60A /* Support Files */,
+				1A9D3EAB21B895FB42B39AB990FA2BC4 /* Vendors */,
+			);
+			name = CommentUIKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E264F1AFDF2DB40AED32B1084C58B7AC /* Pods-CommentUIKit_Tests */ = {
@@ -293,16 +230,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		29CC4ACB7A41175565D5F9C2B014D4E7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5745EA41ACB0E4F5BB3EEE5C0A33EDE /* CommentUIKit.h in Headers */,
-				0FC042427BBEB73C6AB968557C1556FA /* CommentUIKit-Swift.h in Headers */,
-				C3BFA49449459704E195CF8C0CADF3C9 /* CommentUIKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		83E977B8E67D9C862600CA2B8B67CA18 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,7 +261,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8DC8132D0E5645B7B84D6E9635B09DB1 /* PBXTargetDependency */,
+				03B83C17B21CAABC36096EEBC6B6E0AB /* PBXTargetDependency */,
 			);
 			name = "Pods-CommentUIKit_Example";
 			productName = Pods_CommentUIKit_Example;
@@ -353,29 +280,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				8CBC42BB1F7A56FA36F659F0D0ECD8F2 /* PBXTargetDependency */,
+				214627CB057842B76E73CD75E80F5EB5 /* PBXTargetDependency */,
 			);
 			name = "Pods-CommentUIKit_Tests";
 			productName = Pods_CommentUIKit_Tests;
 			productReference = A40A5CB85CB3505565752D32A9C3BFD9 /* Pods-CommentUIKit_Tests */;
-			productType = "com.apple.product-type.framework";
-		};
-		ED39EFE14B22B3AB4F3219E889AB9037 /* CommentUIKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5F01F4F510D5B446BE28FF5EF94E35D8 /* Build configuration list for PBXNativeTarget "CommentUIKit" */;
-			buildPhases = (
-				29CC4ACB7A41175565D5F9C2B014D4E7 /* Headers */,
-				4F280DC03608D26563B5F0C3353F30BD /* Sources */,
-				EB6A1E16573A08747CD936A26DB0994D /* Frameworks */,
-				5F4A905A5D9F4479F38CE8E9C4B43F50 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CommentUIKit;
-			productName = CommentUIKit;
-			productReference = 95E40C29616255E13D775DA83C33B912 /* CommentUIKit */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -396,7 +305,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0C526327F907139036AC61C6F269EC3C /* Products */;
+			productRefGroup = 56444F40915E03429606635930641F38 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -409,13 +318,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		328ECA07A171D61AB24692D2FA187D40 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F4A905A5D9F4479F38CE8E9C4B43F50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -440,21 +342,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F280DC03608D26563B5F0C3353F30BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C88D23830D856D0E289CF57E92D68AE5 /* CodeResources in Sources */,
-				26C11A0C636C1AA676F0BAAE18DB5812 /* CommentUIKit in Sources */,
-				D69F2E242E86FF3ACEC56B776B20F134 /* CommentUIKit-dummy.m in Sources */,
-				2BC0E3CEA65F220F87C9637052C23F0A /* Info.plist in Sources */,
-				62BF2E1B6EC119C4A79D257E44A0E77F /* module.modulemap in Sources */,
-				C1CBA415F8431C09491D97CB2688BC59 /* x86_64-apple-ios-simulator.swiftdoc in Sources */,
-				A17F8BADB79E4B87B2E34B017C083B2C /* x86_64-apple-ios-simulator.swiftmodule in Sources */,
-				4D67E1D46621956CAEC2DD865619D066 /* x86_64-apple-ios-simulator.swiftsourceinfo in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		71C217434177424D751074F3AB102B00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -466,21 +353,35 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8CBC42BB1F7A56FA36F659F0D0ECD8F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CommentUIKit_Example";
-			target = 2A380E6AAB9F3668F4727AAFF786B732 /* Pods-CommentUIKit_Example */;
-			targetProxy = B26FE76D70B147B1AD4F093DB507DC15 /* PBXContainerItemProxy */;
-		};
-		8DC8132D0E5645B7B84D6E9635B09DB1 /* PBXTargetDependency */ = {
+		03B83C17B21CAABC36096EEBC6B6E0AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CommentUIKit;
 			target = ED39EFE14B22B3AB4F3219E889AB9037 /* CommentUIKit */;
-			targetProxy = CF9FCC671B1D8DC7863A42AD6CCAA34D /* PBXContainerItemProxy */;
+			targetProxy = 7FD5C11678B842C383BC28958CA7F9CA /* PBXContainerItemProxy */;
+		};
+		214627CB057842B76E73CD75E80F5EB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CommentUIKit_Example";
+			target = 2A380E6AAB9F3668F4727AAFF786B732 /* Pods-CommentUIKit_Example */;
+			targetProxy = 97B0E53001CD8294145E77C28E37C1B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1209CAD16AF0E25E2907DACC4ABD343E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3989FD88AD005FC424B8C0A93AB19861 /* CommentUIKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -547,33 +448,16 @@
 			};
 			name = Debug;
 		};
-		3FE9F0E5AA478A6FB9CBF2FDB4EC5D36 /* Debug */ = {
+		2800C064E8BBB4AC9248CBE5D0B9FEF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B28DD2B98C200374B6441BD21D70DC2 /* CommentUIKit.debug.xcconfig */;
+			baseConfigurationReference = 4C187BC03B1660903194D7D9B9D32639 /* CommentUIKit.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CommentUIKit/CommentUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CommentUIKit/CommentUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CommentUIKit/CommentUIKit.modulemap";
-				PRODUCT_MODULE_NAME = CommentUIKit;
-				PRODUCT_NAME = CommentUIKit;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -675,37 +559,6 @@
 			};
 			name = Debug;
 		};
-		A2195C88334E0A52203DE9E8D1E4E7AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B856835A3B280E1FAF7316C2E7B930D /* CommentUIKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CommentUIKit/CommentUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CommentUIKit/CommentUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CommentUIKit/CommentUIKit.modulemap";
-				PRODUCT_MODULE_NAME = CommentUIKit;
-				PRODUCT_NAME = CommentUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -761,7 +614,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -811,11 +665,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F01F4F510D5B446BE28FF5EF94E35D8 /* Build configuration list for PBXNativeTarget "CommentUIKit" */ = {
+		59C2DB057607C59C0A775083C38027C5 /* Build configuration list for PBXAggregateTarget "CommentUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FE9F0E5AA478A6FB9CBF2FDB4EC5D36 /* Debug */,
-				A2195C88334E0A52203DE9E8D1E4E7AF /* Release */,
+				2800C064E8BBB4AC9248CBE5D0B9FEF9 /* Debug */,
+				1209CAD16AF0E25E2907DACC4ABD343E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

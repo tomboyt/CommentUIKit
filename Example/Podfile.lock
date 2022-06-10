@@ -1,5 +1,7 @@
 PODS:
-  - CommentUIKit (0.1.0)
+  - CommentUIKit (0.0.1):
+    - CommentUIKit/Vendors (= 0.0.1)
+  - CommentUIKit/Vendors (0.0.1)
 
 DEPENDENCIES:
   - CommentUIKit (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CommentUIKit: 64ea0ad06141c1c1e80d420ddd0391567cb0a434
+  CommentUIKit: 27e192d5b21912603d14ea6ad080bb677795eba1
 
 PODFILE CHECKSUM: db0e1bf4594395821ac8ef29437d25d4ccfd1209
 
