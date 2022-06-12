@@ -14,19 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2CMgZ412Vodx1/OBfI4aC/1xCfA=
+		kjAhYylKdPtZaxiRyn7T8ttkKyY=
 		</data>
-		<key>Modules/CommentUIKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/CommentUIKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		KAz7l/940c+O6Uyr1cG5/69VFwo=
+		RBJV5VlY+bO7QDybDnrlDTxy1EA=
 		</data>
-		<key>Modules/CommentUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/CommentUIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		PstP3FSpXajQmXc3T5qXNY4UB5o=
+		X76gOREowDYEfVLdMo9liyIb31o=
 		</data>
-		<key>Modules/CommentUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/CommentUIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		FObLEzY6hD+VMvMygEbMyAAvTtc=
+		v1+AqW9J5VwD1N7S1bS4z/gNDOw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -57,37 +57,37 @@
 			JWGkfF4vmzzKSBGH9I10PSj1+HAodiWH4jESf73KV10=
 			</data>
 		</dict>
-		<key>Modules/CommentUIKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/CommentUIKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KAz7l/940c+O6Uyr1cG5/69VFwo=
+			RBJV5VlY+bO7QDybDnrlDTxy1EA=
 			</data>
 			<key>hash2</key>
 			<data>
-			dAr7J7Yu9rb2l3azBlVd+E5EJfdeVJsDTJEnoTO2fFs=
+			Wd8+yyIMNj6N5PHuiyk2VUXDBPTYgXgfekatzq2JaA4=
 			</data>
 		</dict>
-		<key>Modules/CommentUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/CommentUIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PstP3FSpXajQmXc3T5qXNY4UB5o=
+			X76gOREowDYEfVLdMo9liyIb31o=
 			</data>
 			<key>hash2</key>
 			<data>
-			CK6BGXqWKTPMA8Z4IUwNRIR1MWItN6OksGUpxUY6G08=
+			oAwpHC/YEmyKJFOMfY5Pc87LN+anEK7UE0bdiYc01Ls=
 			</data>
 		</dict>
-		<key>Modules/CommentUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/CommentUIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FObLEzY6hD+VMvMygEbMyAAvTtc=
+			v1+AqW9J5VwD1N7S1bS4z/gNDOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			FftDCn/6W3ppIImnOfiEiFTTYkQK2GuPMYZZjGFRoiI=
+			tZUiiJFykK4Ijl6auiHDNbVTyeobePnJ03ToyHz1Rf4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
