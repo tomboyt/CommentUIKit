@@ -10,7 +10,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tomboyt' => 'tomboyt@163.com' }
   s.source           = { :git => 'https://github.com/tomboyt/CommentUIKit.git', :tag => s.version.to_s }
-  s.source_files = 'CommentUIKit/**/*.{swift,framework}'
+  #s.source_files = 'CommentUIKit/**/*.{swift,framework}'
   s.platform = :ios, '9.0'
   s.swift_versions   = '5.0'
   s.requires_arc      = true
