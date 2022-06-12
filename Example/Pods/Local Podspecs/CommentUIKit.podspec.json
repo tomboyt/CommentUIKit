@@ -1,6 +1,6 @@
 {
   "name": "CommentUIKit",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "summary": "A short description of CommentUIKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/tomboyt/CommentUIKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/tomboyt/CommentUIKit.git",
-    "tag": "0.0.1"
+    "tag": "0.1.0"
   },
   "source_files": "CommentUIKit/**/*.{swift,framework}",
   "platforms": {
