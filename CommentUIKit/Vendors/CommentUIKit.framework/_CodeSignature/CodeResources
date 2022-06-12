@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/CommentUIKit-Swift.h</key>
 		<data>
-		xOcWqoVkSStArPp7hSH3+urb26k=
+		O1837Mnvamb+FUjvY6Tff1VTwK0=
 		</data>
 		<key>Headers/CommentUIKit.h</key>
 		<data>
@@ -14,11 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kjAhYylKdPtZaxiRyn7T8ttkKyY=
+		vTjhgv8rq0rew82T0M/6fHjm2Ac=
 		</data>
 		<key>Modules/CommentUIKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
 		RBJV5VlY+bO7QDybDnrlDTxy1EA=
+		</data>
+		<key>Modules/CommentUIKit.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
+		<data>
+		8C8j8A/2ZkFg+37bXcSR6QSGgVE=
+		</data>
+		<key>Modules/CommentUIKit.swiftmodule/Project/armv7s-apple-ios.swiftsourceinfo</key>
+		<data>
+		kshf/uMGsidR+L1qG/Pg9idrtSw=
 		</data>
 		<key>Modules/CommentUIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -27,6 +35,22 @@
 		<key>Modules/CommentUIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
 		v1+AqW9J5VwD1N7S1bS4z/gNDOw=
+		</data>
+		<key>Modules/CommentUIKit.swiftmodule/armv7-apple-ios.swiftdoc</key>
+		<data>
+		3nYsIdF2d1sY3qVTnBoxeBYMqlE=
+		</data>
+		<key>Modules/CommentUIKit.swiftmodule/armv7-apple-ios.swiftmodule</key>
+		<data>
+		UA13BEOz0GFSq7GqeQX1iOw12Y0=
+		</data>
+		<key>Modules/CommentUIKit.swiftmodule/armv7s-apple-ios.swiftdoc</key>
+		<data>
+		7hy5V7RWrC8XSyze7O4A1Lp1tck=
+		</data>
+		<key>Modules/CommentUIKit.swiftmodule/armv7s-apple-ios.swiftmodule</key>
+		<data>
+		zqCoeEuy9/7fY79UW8+5wD5CD+4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,11 +63,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xOcWqoVkSStArPp7hSH3+urb26k=
+			O1837Mnvamb+FUjvY6Tff1VTwK0=
 			</data>
 			<key>hash2</key>
 			<data>
-			QLq6r9gPUUMZvBVKw+xC/HF5QQxfD2NV8vql8F9JMls=
+			B2lpAljcft+Wj99qa8VAOZ2MkuUCvan/ytUPg6JkedQ=
 			</data>
 		</dict>
 		<key>Headers/CommentUIKit.h</key>
@@ -68,6 +92,28 @@
 			Wd8+yyIMNj6N5PHuiyk2VUXDBPTYgXgfekatzq2JaA4=
 			</data>
 		</dict>
+		<key>Modules/CommentUIKit.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8C8j8A/2ZkFg+37bXcSR6QSGgVE=
+			</data>
+			<key>hash2</key>
+			<data>
+			wCd8W/mezphhNlDVzXKY+nN7vhfEhgzZwgj9G69uMKg=
+			</data>
+		</dict>
+		<key>Modules/CommentUIKit.swiftmodule/Project/armv7s-apple-ios.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kshf/uMGsidR+L1qG/Pg9idrtSw=
+			</data>
+			<key>hash2</key>
+			<data>
+			58Daqor/dDyjLr/HZR+LAoI5B+YG5Gz+Q9c2XpuSXBQ=
+			</data>
+		</dict>
 		<key>Modules/CommentUIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
@@ -88,6 +134,50 @@
 			<key>hash2</key>
 			<data>
 			tZUiiJFykK4Ijl6auiHDNbVTyeobePnJ03ToyHz1Rf4=
+			</data>
+		</dict>
+		<key>Modules/CommentUIKit.swiftmodule/armv7-apple-ios.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3nYsIdF2d1sY3qVTnBoxeBYMqlE=
+			</data>
+			<key>hash2</key>
+			<data>
+			HB331P+AZbHujHc5dU4JPKMnv6Arh71nyWTthI+H4lo=
+			</data>
+		</dict>
+		<key>Modules/CommentUIKit.swiftmodule/armv7-apple-ios.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UA13BEOz0GFSq7GqeQX1iOw12Y0=
+			</data>
+			<key>hash2</key>
+			<data>
+			y6eNAi285XKxt8dOEiN1RpEhdYtHm5AtYKji76uHGmg=
+			</data>
+		</dict>
+		<key>Modules/CommentUIKit.swiftmodule/armv7s-apple-ios.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7hy5V7RWrC8XSyze7O4A1Lp1tck=
+			</data>
+			<key>hash2</key>
+			<data>
+			DWRPkNQQqu6WwvuGltf0KB2U3/7pzgv7i/jLJnSwogs=
+			</data>
+		</dict>
+		<key>Modules/CommentUIKit.swiftmodule/armv7s-apple-ios.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zqCoeEuy9/7fY79UW8+5wD5CD+4=
+			</data>
+			<key>hash2</key>
+			<data>
+			NbuxXdSUqzzm3S7bt3mI0Y1MlMDaJxT3ZII3/Ch/AFE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
